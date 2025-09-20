@@ -6,5 +6,5 @@
 
 **Sample Code**文件中保存了一份样例代码
 
-**Automatic routing**中保存的是一份由我编写的自动路由协议代码，由于NS-3仿真不支持网络中存在环路，而在你的代码中，引用了我编写的代码中的`construct_route_tree()`方法则可实现支持环路
+**Automatic routing**中保存的是一份由我编写的自动路由协议代码，由于NS-3仿真不支持网络中存在环路，若要使用该协议，只需要引用了代码中的`construct_route_tree()`方法则可实现支持环路
 
